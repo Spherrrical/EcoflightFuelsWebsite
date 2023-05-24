@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../public/fonts/SF-Pro-Semibold.otf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../public/fonts/Inter.ttf");
+}
