@@ -3,10 +3,10 @@ import {Button} from "./Button";
 function GlobalPage() {
     return (
         <div>
-            <div className="flex justify-center items-center h-screen bg-slate-800">
+            <div className="flex justify-center items-center h-screen bg-gray-700">
                 <div className="flex flex-col items-center space-y-9">
                     <h1 className="text-center text-oldWhite text-3xl sm:text-4xl font-sfpro">
-                        You're entering Musa's projects page
+                        Welcome to Musa's projects menu page.
                     </h1>
                     <h2 className="text-center text-blue-400 text-1xl sm:text-2xl font-inter">
                         Select a project to view below!
