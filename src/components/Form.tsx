@@ -14,7 +14,7 @@ export const Form = () => {
         <div className="isolate bg-navy min-h-screen px-6 py-24 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
                 <h2 className="text-3xl font-sfpro tracking-tight text-oldWhite sm:text-4xl font-circularbold">
-                    Ecoflight Inquries
+                    Ecoflight Flight Inquries
                 </h2>
                 <p className="mt-5 text-lg text-gray-100 font-inter">
                     Fill out the form below to contact us about our project, how we can help you, or any other questions you may have.
