@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './global.css';
-import App from './App';
+import EcoflightFuels from './pages/EcoflightFuels';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import GlobalPage from "./components/utils/HomePageGlobal";
+import {ThankYou} from "./components/ThankYou";
 
 // File is not to be touched, this is the entry point for the website.
 const root = ReactDOM.createRoot(
@@ -15,7 +17,9 @@ root.render(
     <React.StrictMode>
         <Router>
             <Routes>
-                <Route path="/ecoflightfuels" element={<App />} />
+                <Route path="/" element={<GlobalPage />} />
+                <Route path="/ecoflightfuels" element={<EcoflightFuels />} />
+                <Route path="/thankyou" element={<ThankYou />} />
             </Routes>
         </Router>
     </React.StrictMode>,

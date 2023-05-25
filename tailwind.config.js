@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1792px',
+        '4xl': '2048px',
+      },
       colors: {
         lightOcean: "#00A79D",
         green: "#2BB673",
