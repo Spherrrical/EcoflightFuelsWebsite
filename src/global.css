@@ -11,3 +11,18 @@
     font-family: "Inter";
     src: url("../public/fonts/Inter.ttf");
 }
+
+@font-face {
+    font-family: "CircularBold";
+    src: url("../public/fonts/CircularBold.ttf");
+}
+
+@font-face {
+    font-family: "CircularBook";
+    src: url("../public/fonts/CircularBook.ttf");
+}
+
+@font-face {
+    font-family: "CircularMedium";
+    src: url("../public/fonts/CircularMedium.ttf");
+}

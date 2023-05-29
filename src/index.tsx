@@ -6,8 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import GlobalPage from "./components/utils/HomePageGlobal";
 import {ThankYou} from "./components/ThankYou";
+import {Advance} from "./pages/Advance";
 
 // File is not to be touched, this is the entry point for the website.
+
+
+
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
@@ -20,6 +24,7 @@ root.render(
                 <Route path="/" element={<GlobalPage />} />
                 <Route path="/ecoflightfuels" element={<EcoflightFuels />} />
                 <Route path="/thankyou" element={<ThankYou />} />
+                <Route path="/advance" element={<Advance />} />
             </Routes>
         </Router>
     </React.StrictMode>,

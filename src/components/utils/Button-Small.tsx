@@ -6,11 +6,11 @@ type ButtonProps = {
     onClick?: any
 };
 
-export const Button = (props: ButtonProps) => (
+export const AdvanceButton = (props: ButtonProps) => (
     <button
         onClick={props.onClick}
         type="button"
-        className={`focus:outline-none transition rounded-full py-4 text-xl shadow-md-dark-contrast font-sfpro ${props.className}`}
+        className={`focus:outline-none transition rounded-full py-1.5 text-base shadow-md-dark-contrast font-circular-medium ${props.className}`}
     >
         {props.children}
     </button>
