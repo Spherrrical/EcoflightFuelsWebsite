@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import GlobalPage from "./components/utils/HomePageGlobal";
 import {ThankYou} from "./components/ThankYou";
 import {Advance} from "./pages/Advance";
+import {Cricket} from "./pages/HistoryofCricket";
 
 // File is not to be touched, this is the entry point for the website.
 
@@ -25,6 +26,7 @@ root.render(
                 <Route path="/ecoflightfuels" element={<EcoflightFuels />} />
                 <Route path="/thankyou" element={<ThankYou />} />
                 <Route path="/advance" element={<Advance />} />
+                <Route path="/historyofcricket" element={<Cricket />} />
             </Routes>
         </Router>
     </React.StrictMode>,

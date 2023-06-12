@@ -16,6 +16,11 @@ function GlobalPage() {
                             Ecoflight Fuels
                         </Button>
                     </a>
+                    <a href="/historyofcricket" target="_blank" rel="noreferrer">
+                        <Button className="w-80 text-inter text-lightOcean bg-slate-600 hover:bg-slate-500">
+                            CGI Project - History of Cricket
+                        </Button>
+                    </a>
                     <a href="https://developop-website.vercel.app/" target="_blank" rel="noreferrer">
                         <Button className="w-60 text-inter text-lightOcean bg-slate-600 hover:bg-slate-500">
                             DeveloPop
